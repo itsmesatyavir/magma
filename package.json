@@ -1,0 +1,17 @@
+{
+  "name": "monad-staking-scheduler",
+  "version": "1.0.0",
+  "description": "Automated staking script for Monad testnet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Itsmesatyavir",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.10.0",
+    "node-cron": "^3.0.2"
+  }
+}
