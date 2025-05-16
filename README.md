@@ -25,18 +25,25 @@ A simple Node.js script that automatically stakes 0.2 Monad to a smart contract 
 ## Setup
 
 1. **Clone the repository or download the script**
+```bash
+git clone https://github.com/itsmesatyavir/magma.git
+```
 
-2. **Install dependencies**
+```bash
+cd magma
+``` 
+
+3. **Install dependencies**
    ```bash
    npm install
    ```
 
-3. **Create a `.env` file**
+4. **Create a `.env` file**
    ```env
    PRIVATE_KEY=your_private_key_here
    ```
 
-4. **Start the script**
+5. **Start the script**
    ```bash
    node index.js
    ```
